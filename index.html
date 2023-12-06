@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resolución de Sistema de Ecuaciones</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Resolución de Sistema de Ecuaciones</h2>
+        <div class="equation">
+            <h3>Ecuación 1</h3>
+            <input type="text" id="a11" placeholder="a11">
+            <input type="text" id="a12" placeholder="a12">
+            <input type="text" id="b1" placeholder="b1">
+        </div>
+        <div class="equation">
+            <h3>Ecuación 2</h3>
+            <input type="text" id="a21" placeholder="a21">
+            <input type="text" id="a22" placeholder="a22">
+            <input type="text" id="b2" placeholder="b2">
+        </div>
+        <button onclick="resolverSistema()">Resolver</button>
+        <button onclick="resetearCampos()">Resetear</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
